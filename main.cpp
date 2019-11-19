@@ -49,11 +49,11 @@ int main(int argc, char *argv[])
 
     //activation
     ActivationManager am;
-    if (!am.isActiveAndValid()) {
+/*    if (!am.isActiveAndValid()) {
         ActivationDialog ad;
         if (ad.exec() == QDialog::Rejected)
             return 0; //quit
-    }
+    }*/
 
     //init gui
     MainWindow w;
